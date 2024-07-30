@@ -34,6 +34,15 @@ public class program {
 		}
 		System.out.println("------------------------------------------");
 
+		System.out.println("findAll");
+		list = sellerDao.findAll();
+		for(Seller obj : list) {
+			System.out.println(obj);
+		}
+		
+		
+		
+		
 		
 		
 		
