@@ -39,10 +39,19 @@ public class program {
 		for(Seller obj : list) {
 			System.out.println(obj);
 		}
-		
-		
-		
-		
+		System.out.println("------------------------------------------");
+
+		/*System.out.println("seller insert");
+		Seller newseller = new Seller(null, "greg", "greg@gmail.com", new Date(), 4000.0, department);
+		sellerDao.insert(newseller);
+		System.out.println("Insert! new id = " + newseller.getId());
+		System.out.println("------------------------------------------");
+	*/
+		System.out.println("findAll");
+		list = sellerDao.findAll();
+		for(Seller obj : list) {
+			System.out.println(obj);
+		}
 		
 		
 		
